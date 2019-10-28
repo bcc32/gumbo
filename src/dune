@@ -2,4 +2,4 @@
  (name gumbo)
  (libraries base lambdasoup)
  (preprocess
-  (pps ppx_base)))
+  (pps ppx_jane.kernel)))

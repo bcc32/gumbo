@@ -1,0 +1,6 @@
+(library
+ (name gumbo_test)
+ (libraries core_kernel expect_test_helpers_kernel gumbo)
+ (inline_tests)
+ (preprocess
+  (pps ppx_jane)))
