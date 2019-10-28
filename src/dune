@@ -1,0 +1,5 @@
+(library
+ (name gumbo)
+ (libraries base lambdasoup)
+ (preprocess
+  (pps ppx_base)))
