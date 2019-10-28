@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name gumbo)
+ (libraries core gumbo)
+ (preprocess
+  (pps ppx_jane.kernel)))
